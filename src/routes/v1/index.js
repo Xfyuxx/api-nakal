@@ -9,6 +9,7 @@ router.get('/', (req, res) => {
 });
 
 router.use('/info', require('./info/index'));
-router.use('/canvas', require('./canvas/index'))
+router.use('/canvas', require('./canvas/index'));
+router.use('/nsfw', require('./nsfw/index'));
 
 module.exports = router;
