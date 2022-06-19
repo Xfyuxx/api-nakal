@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 router.get('/', function (req, res) => {
-	res.render("./src/view/home/");
+	res.render("./src/views/home");
 });
 
 // Api routes
