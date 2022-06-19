@@ -40,8 +40,9 @@ app.use(errorHandler) // 500 internal error request handler
 // Export app
 module.exports = app;
 
-app.set('views',path.join(__dirname,'views'));
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, "/views"));
+
 
 app.use('/assets',express.static(path.join(__dirname, 'assets')));
 
