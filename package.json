@@ -28,12 +28,7 @@
   "scripts": {
     "start": "node ./src/server.js",
     "dev": "nodemon ./src/server.js",
-    "lint:fix": "eslint ./src/server.js --fix",
-    "fix:other": "yarn prettier --write \"./**/*.{js,json}\"",
-    "fix:code": "yarn test:code --fix",
-    "fix": "yarn fix:code && yarn fix:other",
-    "test:code": "eslint --ignore-path .gitignore --ignore-path .prettierignore --ext .js"
-  },
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NotKaskus/express-api-template.git"
