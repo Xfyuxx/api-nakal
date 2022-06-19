@@ -1,5 +1,5 @@
 // Define global variables
-global.setting = require('./config/settings');
+//global.setting = require('./config/settings');
 
 // Express modules
 const express = require('express');
