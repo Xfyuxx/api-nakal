@@ -5,7 +5,7 @@ const nsfw = new RandomPHUB(unique = true);
 
 router.get('/', (req, res) => {
    
-    const { data } = nsfw.getRandomInCategory('pussy', "jpg");
+    const data = nsfw.getRandomInCategory('pussy', "jpg");
 
     res.status(200).send({
         url: data.url,
