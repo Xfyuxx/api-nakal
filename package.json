@@ -24,7 +24,8 @@
     "node-fetch": "2.6.6",
     "sqlite3": "^5.0.2",
     "xss-clean": "^0.1.1", 
-    "ejs": "^3.1.8"
+    "ejs": "^3.1.8", 
+    "discord-phub":"^1.0.7"
   },
   "scripts": {
     "start": "node ./src/server.js",
