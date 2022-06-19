@@ -8,7 +8,6 @@ router.get('/', (req, res) => {
 	});
 });
 
-router.use('/animeinfo', require('./animeinfo'));
-router.use('/geoip', require('./geoip'));
+router.use('/pussy', require('./pussy'));
 
 module.exports = router;
